@@ -23,6 +23,7 @@ public class SecKillController {
     public String deKill(Model model,String userId,String shopId){
         model.addAttribute("killResult",secKillService.doSecKill(userId,shopId));
         System.out.println("v2.2.2.2");
+        System.out.println("this is hotfix");
         return "result";
     }
 }
